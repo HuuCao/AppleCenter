@@ -1,0 +1,19 @@
+@import url('../fonts/Abel-Regular.ttf');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+nav{
+    background-color: black;
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+}
+
+nav .navbar ul li a{
+    font-family: Arial, Helvetica;
+    font-size: 20px;
+    color: white;
+}
