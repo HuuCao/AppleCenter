@@ -1,9 +1,4 @@
 @import url("../fonts/Abel-Regular.ttf");
-header.header-container {
-  margin: 0 auto;
-  width: 1200px;
-  max-width: 100%;
-}
 
 header.header-container nav {
   background-color: black;
@@ -14,9 +9,29 @@ header.header-container .navbar {
   width: 100%;
 }
 
-header.header-container nav .navbar ul li a {
+header.header-container nav .navbar ul li {
+  width: 120px;
+  height: 50px;
+  margin-left: 10px;
+}
+header.header-container nav .navbar ul li a{
   font-family: Arial, Helvetica;
-  font-size: 20px;
+  font-size: 16px;
   color: white;
 }
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: darkgrey;
+}
+header.header-container nav .navbar ul li .dropdown-content .dropdown-item{
+  color: black;
+  font-size: 13px;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+
 /*# sourceMappingURL=style.css.map */

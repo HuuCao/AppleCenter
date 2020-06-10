@@ -9,8 +9,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/Header/style.css">
+    <link rel="stylesheet" href="./css/Header/style.scss">
     <link rel="stylesheet" href="./css/Footer/footer.css">
-    <link rel="shortcut icon" href="./images/apple-brands.svg">
+    <link rel="shortcut icon" href="./images/imgHeader/apple-brands.svg">
+    <!-- hover -->
+    <link rel="stylesheet" href="./hover/hover-min.css">
     <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
@@ -32,24 +35,50 @@
             <nav class="navbar navbar-expand-md sticky-top">
                 <div class="header container-fluid">
                     <a href="#">
-                        <img class="navbar-brand" src="./images/logo_maccenter.jpg" alt="logo" height="100px">
+                        <img class="navbar-brand" src="./images/imgHeader/logo_maccenter.jpg" alt="logo" height="100px">
                     </a>
                     <div class="navbar"> <!--đây là thằng * --> <!--2 thằng này nhìn thấy nhau thông qua id navbarResponsive-->
                         <ul class="navbar-nav mr-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Home</a>
+                            <li class="nav-item dropdown" >
+                                <a class="nav-link hvr-pop" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Iphone
+                                </a>
+                                <div class="dropdown-content" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Iphone SE</a>
+                                    <a class="dropdown-item" href="#">Iphone 6</a>
+                                    <a class="dropdown-item" href="#">Iphone 6S</a>
+                                    <a class="dropdown-item" href="#">Iphone 6S plus</a>
+                                    <a class="dropdown-item" href="#">Iphone 7</a>
+                                    <a class="dropdown-item" href="#">Iphone 7 plus</a>
+                                    <a class="dropdown-item" href="#">Iphone X</a>
+                                    <a class="dropdown-item" href="#">Iphone Xs Max</a>
+                                    <a class="dropdown-item" href="#">Iphone 11</a>
+                                    <a class="dropdown-item" href="#">Iphone 11 ProMax</a>
+                                </div>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Iphone</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link hvr-pop" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Ipad
+                                </a>
+                                <div class="dropdown-content" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Ipad Mini</a>
+                                    <a class="dropdown-item" href="#">Ipad Air</a>
+                                    <a class="dropdown-item" href="#">Ipad Pro</a>
+                                </div>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Ipad</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link hvr-pop" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Macbook
+                                </a>
+                                <div class="dropdown-content" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Macbook Air</a>
+                                    <a class="dropdown-item" href="#">Macbook Pro</a>
+                                </div>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Macbook</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Watch</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link hvr-pop" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Apple Watch
+                                </a>
                             </li>
                         </ul>
                     </div>
