@@ -10,12 +10,12 @@ footer.footer-container {
     width: 100%;
 
     section.footer-container-section {
-        width: 1200px;
         max-width: 100%;
-        margin: 0 auto;
 
         nav.footer-nav-link {
-            width: 100%;
+            width: 1200px;
+            max-width: 100%;
+            margin: 0 auto;
             display: flex;
             justify-content: space-between;
             padding-bottom: 30px;
@@ -30,6 +30,7 @@ footer.footer-container {
                 }
 
                 li {
+
                     a {
                         font-family: $font-family;
                         font-size: $font-size;
@@ -47,71 +48,18 @@ footer.footer-container {
             }
         }
 
-        div.footer-div-intro {
+        div.footer-div-container {
             padding: 20px 20px;
             width: 100%;
             background-color: black;
-            div.footer-div-intro-text {
-                p {
-                    line-height: 30px;
-                    font-family: $font-family;
-                    font-size: $font-size;
-                    font-weight: normal;
-                    color: $color;
-                }
-            }
 
-            div.footer-div-intro-link {
-                display: flex;
-                justify-content: space-between;
+            div.footer-div-intro {
+                width: 1200px;
+                margin: 0 auto;
 
-                div.div-left {
-
-                    h5 {
-                        color: white;
-                    }
-
-                    p {
-                        line-height: 20px;
-                        font-family: $font-family;
-                        font-size: $font-size;
-                        font-weight: normal;
-                        color: $color;
-                    }
-                    ul {
-                        display: flex;
-                        list-style: none;
-
-                        li {
-
-                            b {
-                                font-family: $font-family;
-                                font-size: 14px;
-                                font-weight: bold;
-                                color: $color;
-                            }
-
-                            a {
-                                font-family: $font-family;
-                                font-size: $font-size;
-                                font-weight: normal;
-                                color: $color;
-                                text-decoration: none;
-
-                                &:hover {  
-                                    text-decoration: underline;    
-                                    color: $color-anim-a; 
-                                }
-                            }
-                        }
-                    }
-                }
-
-                div.div-right {
+                div.footer-div-intro-text {
+                    width: 100%;
                     
-                    h5 {
-                        color: white;
-                    }
                     p {
                         line-height: 30px;
                         font-family: $font-family;
@@ -119,42 +67,105 @@ footer.footer-container {
                         font-weight: normal;
                         color: $color;
                     }
-
-                    div.your-phone {
-                        padding: 5px 5px;
-                        width: 300px;
-                        border: 1px solid $color;
+                }
+    
+                div.footer-div-intro-link {
+                    display: flex;
+                    justify-content: space-between;
+    
+                    div.div-left {
+    
+                        h5 {
+                            color: white;
+                        }
+    
                         p {
-                            color: #FF066A;
-                            font-size: 20px;
-                            svg {
-                                color: $color;
-                                width: 17px;
-                                height: 17px;
+                            line-height: 20px;
+                            font-family: $font-family;
+                            font-size: $font-size;
+                            font-weight: normal;
+                            color: $color;
+                        }
+                        ul {
+                            display: flex;
+                            list-style: none;
+    
+                            li {
+    
+                                b {
+                                    font-family: $font-family;
+                                    font-size: 14px;
+                                    font-weight: bold;
+                                    color: $color;
+                                }
+    
+                                a {
+                                    font-family: $font-family;
+                                    font-size: $font-size;
+                                    font-weight: normal;
+                                    color: $color;
+                                    text-decoration: none;
+    
+                                    &:hover {  
+                                        text-decoration: underline;    
+                                        color: $color-anim-a; 
+                                    }
+                                }
                             }
                         }
+                    }
+    
+                    div.div-right {
                         
-                    }
-                }  
-            }
-
-            div.div-icon-link {
-                padding: 25px 0;
-                display: flex;
-                justify-content: space-around;
-
-                a {
-
-                    img {
-                        height: 50px;
-                        width: 150px;        
-                    }
-
-                    &:hover {
-                        opacity: 0.6;     
+                        h5 {
+                            color: white;
+                        }
+                        p {
+                            line-height: 30px;
+                            font-family: $font-family;
+                            font-size: $font-size;
+                            font-weight: normal;
+                            color: $color;
+                        }
+    
+                        div.your-phone {
+                            padding: 5px 5px;
+                            width: 300px;
+                            border: 1px solid $color;
+                            p {
+                                color: #FF066A;
+                                font-size: 20px;
+                                svg {
+                                    color: $color;
+                                    width: 17px;
+                                    height: 17px;
+                                }
+                            }
+                            
+                        }
+                    }  
+                }
+    
+                div.div-icon-link {
+                    padding: 25px 0;
+                    display: flex;
+                    justify-content: space-around;
+    
+                    a {
+    
+                        img {
+                            height: 50px;
+                            width: 150px;        
+                        }
+    
+                        &:hover {
+                            opacity: 0.6;     
+                        }
                     }
                 }
             }
+
+            
         }
     }
 }
