@@ -22,14 +22,17 @@ footer.footer-container {
 
             ul {
                 list-style: none;
+                margin: 0;
 
                 h5 {
+                    margin: 0;
                     font-family: $font-family;
                     font-size: $font-size;
                     font-weight: normal;
                 }
 
                 li {
+                    height: 23px;
 
                     a {
                         font-family: $font-family;
@@ -61,6 +64,7 @@ footer.footer-container {
                     width: 100%;
                     
                     p {
+                        margin: 0;
                         line-height: 30px;
                         font-family: $font-family;
                         font-size: $font-size;
@@ -76,6 +80,7 @@ footer.footer-container {
                     div.div-left {
     
                         h5 {
+                            margin: 0;
                             color: white;
                         }
     
@@ -118,6 +123,7 @@ footer.footer-container {
                     div.div-right {
                         
                         h5 {
+                            margin: 0;
                             color: white;
                         }
                         p {
