@@ -13,7 +13,7 @@ header.header-container {
         .navbar ul li a{
             font-family: serif;
             font-size: 20px;
-            color: red;
+            color: white;
         }
 //----------------
         .dropdown{
@@ -27,6 +27,7 @@ header.header-container {
         }
         .dropdown:hover .dropdown-content{
             display: block;
+            background-color: gray;
         }
 
 }

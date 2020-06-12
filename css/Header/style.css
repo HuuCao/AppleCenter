@@ -1,38 +1,33 @@
 @import url("../fonts/Abel-Regular.ttf");
-
+@import url("/AppleCenter/fonts/Cairo-Regular.ttf");
 header.header-container nav {
   background-color: black;
   width: 100%;
-  position: fixed;
 }
 
 header.header-container .navbar {
   width: 100%;
 }
 
-header.header-container nav .navbar ul li {
-  width: 120px;
-  height: 50px;
-  margin-left: 10px;
-}
-header.header-container nav .navbar ul li a{
-  font-family: Arial, Helvetica;
-  font-size: 16px;
+header.header-container .navbar ul li a {
+  font-family: serif;
+  font-size: 20px;
   color: white;
 }
 
-.dropdown-content{
+header.header-container .dropdown {
+  position: relative;
+}
+
+header.header-container .dropdown-content {
   display: none;
   position: absolute;
-  background-color: darkgrey;
+  background-color: none;
+  z-index: 1;
 }
-header.header-container nav .navbar ul li .dropdown-content .dropdown-item{
-  color: black;
-  font-size: 13px;
-}
-.dropdown:hover .dropdown-content{
+
+header.header-container .dropdown:hover .dropdown-content {
   display: block;
+  background-color: gray;
 }
-
-
 /*# sourceMappingURL=style.css.map */
