@@ -32,12 +32,12 @@ footer.footer-container section.footer-container-section nav.footer-nav-link ul 
 }
 
 footer.footer-container section.footer-container-section nav.footer-nav-link ul li {
-  height: 23px;
+  height: 1.5vw;
 }
 
 footer.footer-container section.footer-container-section nav.footer-nav-link ul li a {
   font-family: Arial;
-  font-size: 12px;
+  font-size: 0.8vw;
   font-weight: normal;
   color: #8D8D96;
   text-decoration: none;
@@ -169,5 +169,68 @@ footer.footer-container section.footer-container-section div.footer-div-containe
 
 footer.footer-container section.footer-container-section div.footer-div-container div.footer-div-intro div.div-icon-link a:hover {
   opacity: 0.6;
+}
+
+@media only screen and (max-width: 739px) {
+  footer.footer-container {
+    overflow-x: hidden;
+    width: 100vw;
+  }
+  footer.footer-container section.footer-container-section {
+    width: 100vw;
+  }
+  footer.footer-container section.footer-container-section nav.footer-nav-link ul h5 {
+    font-size: 1.5vw;
+  }
+  footer.footer-container section.footer-container-section div.footer-div-container {
+    padding: 3vw 0;
+    width: 100vw;
+    background-color: black;
+  }
+  footer.footer-container section.footer-container-section div.footer-div-container div.footer-div-intro div.footer-div-intro-text {
+    width: 100vw;
+    padding: 0 2vw;
+  }
+  footer.footer-container section.footer-container-section div.footer-div-container div.footer-div-intro div.footer-div-intro-text p:first-child {
+    line-height: 5vw !important;
+    font-size: 4.5vw !important;
+  }
+  footer.footer-container section.footer-container-section div.footer-div-container div.footer-div-intro div.footer-div-intro-text p {
+    line-height: 3.5vw;
+    font-size: 2vw;
+  }
+  footer.footer-container section.footer-container-section div.footer-div-container div.footer-div-intro div.footer-div-intro-link div.div-left {
+    display: none;
+  }
+  footer.footer-container section.footer-container-section div.footer-div-container div.footer-div-intro div.footer-div-intro-link div.div-right {
+    width: 100%;
+  }
+  footer.footer-container section.footer-container-section div.footer-div-container div.footer-div-intro div.footer-div-intro-link div.div-right h5 {
+    font-size: 3.5vw;
+  }
+  footer.footer-container section.footer-container-section div.footer-div-container div.footer-div-intro div.footer-div-intro-link div.div-right p {
+    font-size: 2.2vw !important;
+  }
+  footer.footer-container section.footer-container-section div.footer-div-container div.footer-div-intro div.footer-div-intro-link div.div-right div.your-phone {
+    border: none !important;
+    width: 50vw !important;
+    height: 8.5vw !important;
+  }
+  footer.footer-container section.footer-container-section div.footer-div-container div.footer-div-intro div.footer-div-intro-link div.div-right div.your-phone p {
+    font-size: 3.0vw !important;
+  }
+  footer.footer-container section.footer-container-section div.footer-div-container div.footer-div-intro div.footer-div-intro-link div.div-right div.your-phone p svg {
+    width: 3.5vw !important;
+    height: 3.5vw !important;
+  }
+  footer.footer-container section.footer-container-section div.footer-div-container div.footer-div-intro div.div-icon-link {
+    width: 100vw;
+    padding: 0;
+    padding-right: 4vw;
+  }
+  footer.footer-container section.footer-container-section div.footer-div-container div.footer-div-intro div.div-icon-link a img {
+    height: 7vw;
+    width: 15vw;
+  }
 }
 /*# sourceMappingURL=footer.css.map */

@@ -32,11 +32,11 @@ footer.footer-container {
                 }
 
                 li {
-                    height: 23px;
+                    height: 1.5vw;
 
                     a {
                         font-family: $font-family;
-                        font-size: $font-size;
+                        font-size: 0.8vw;
                         font-weight: normal;
                         color: $color;
                         text-decoration: none;
@@ -170,8 +170,121 @@ footer.footer-container {
                     }
                 }
             }
-
-            
         }
     }
 }
+
+
+// Mobile
+@media only screen and (max-width: 739px) {
+    footer.footer-container {
+        overflow-x: hidden;
+        width: 100vw;
+       
+
+        section.footer-container-section {
+            width: 100vw;
+
+
+            nav.footer-nav-link {
+                
+                ul {
+                   
+                    h5 {
+                        font-size: 1.5vw;
+
+                        li {
+
+                            
+                            a {
+                                
+                            }
+                        }
+                    }
+                }
+            }
+
+            div.footer-div-container {
+                padding: 3vw 0;
+                width: 100vw;
+                background-color: black;
+
+                div.footer-div-intro {
+
+                    div.footer-div-intro-text {
+                        width: 100vw;
+                        padding: 0 2vw;
+                        
+                        p:first-child {
+                            line-height: 5vw !important;
+                            font-size: 4.5vw !important;
+                        }
+
+                        p {
+                            
+                            line-height: 3.5vw;
+                            font-size: 2vw;
+                        }
+                    }
+
+                    div.footer-div-intro-link {
+
+                        div.div-left {
+                            display: none;
+
+                        }
+
+                        div.div-right {
+                            width: 100%;
+
+                            h5 {
+                                font-size: 3.5vw;
+                            }
+
+                            p {
+                                font-size: 2.2vw !important;
+                            }
+
+                            div.your-phone {
+                                border: none !important;
+                                width: 50vw !important;
+                                height: 8.5vw !important;
+
+                                p {
+                                    font-size: 3.0vw !important;
+                                    svg {
+                                        width: 3.5vw !important;
+                                        height: 3.5vw !important;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    div.div-icon-link {
+                        width: 100vw;
+                        padding: 0;
+                        padding-right: 4vw;
+                    
+                        a {
+                            
+                            img {
+                                height: 7vw ; 
+                                width: 15vw ;
+                            }
+                        }
+                    }
+                }
+            }
+        } 
+    }
+}
+  
+  // Tablet 
+  @media only screen and (min-width: 740px) and (max-width: 1023px) { 
+
+  } 
+  
+  // PC resolution and PC
+  @media only screen and (min-width: 1024px) {    
+  }
