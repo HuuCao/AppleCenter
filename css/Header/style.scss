@@ -1,10 +1,17 @@
 @import url('../fonts/Abel-Regular.ttf');
 @import url('/AppleCenter/fonts/Cairo-Regular.ttf');
 
+div.carousel {
+    padding-top: 110px;
+}
+
 header.header-container {
         nav{
             background-color: black;
             width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
         }
         .navbar{
             width: 100%;
@@ -13,7 +20,7 @@ header.header-container {
         .navbar ul li a{
             font-family: serif;
             font-size: 20px;
-            color: red;
+            color: white;
         }
 //----------------
         .dropdown{
@@ -27,6 +34,7 @@ header.header-container {
         }
         .dropdown:hover .dropdown-content{
             display: block;
+            background-color: gray;
         }
 
 }

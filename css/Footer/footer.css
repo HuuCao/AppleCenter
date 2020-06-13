@@ -21,12 +21,18 @@ footer.footer-container section.footer-container-section nav.footer-nav-link {
 
 footer.footer-container section.footer-container-section nav.footer-nav-link ul {
   list-style: none;
+  margin: 0;
 }
 
 footer.footer-container section.footer-container-section nav.footer-nav-link ul h5 {
+  margin: 0;
   font-family: Arial;
   font-size: 12px;
   font-weight: normal;
+}
+
+footer.footer-container section.footer-container-section nav.footer-nav-link ul li {
+  height: 23px;
 }
 
 footer.footer-container section.footer-container-section nav.footer-nav-link ul li a {
@@ -60,6 +66,7 @@ footer.footer-container section.footer-container-section div.footer-div-containe
 }
 
 footer.footer-container section.footer-container-section div.footer-div-container div.footer-div-intro div.footer-div-intro-text p {
+  margin: 0;
   line-height: 30px;
   font-family: Arial;
   font-size: 12px;
@@ -77,6 +84,7 @@ footer.footer-container section.footer-container-section div.footer-div-containe
 }
 
 footer.footer-container section.footer-container-section div.footer-div-container div.footer-div-intro div.footer-div-intro-link div.div-left h5 {
+  margin: 0;
   color: white;
 }
 
@@ -116,6 +124,7 @@ footer.footer-container section.footer-container-section div.footer-div-containe
 }
 
 footer.footer-container section.footer-container-section div.footer-div-container div.footer-div-intro div.footer-div-intro-link div.div-right h5 {
+  margin: 0;
   color: white;
 }
 
