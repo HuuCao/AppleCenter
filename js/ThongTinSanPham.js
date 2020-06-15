@@ -2,7 +2,7 @@ var productArray = [
     {
         productId:10030,   				//ID của sản phẩm
         brand:'mac',    				//Mã thể loại
-        img:'Image/product/10030.png',	//Ảnh sản phẩm (dẫn link)
+        img:'images/imgMacbook/10030.png',	//Ảnh sản phẩm (dẫn link)
         name:'MacBook Pro Touch 2019',  //Tên sản phẩm
         price: 1723690,					//Giá thành sản phẩm
         
@@ -24,7 +24,7 @@ var productArray = [
     {
         productId:10029, 			
         brand:'watch',    
-        img:'Image/product/10029.png', 
+        img:'images/imgAppleWatch/10029.png', 
         name:'Apple Watch series 4', 
         price: 516810,
         
@@ -46,7 +46,7 @@ var productArray = [
     {
         productId:10028, 
         brand:'watch',    
-        img:'Image/product/10028.png', 
+        img:'images/imgAppleWatch/10028.png', 
         name:'Apple Watch series 3', 
         price: 245260,
         
@@ -67,7 +67,7 @@ var productArray = [
     {
         productId:10027, 
         brand:'ipad',    
-        img:'Image/product/10027.png', 
+        img:'images/imgIpad/10027.png', 
         name:'iPad Pro 11 inch Wifi 64GB (2018)', 
         price: 947840,
         
@@ -88,7 +88,7 @@ var productArray = [
     {
         productId:10026, 
         brand:'ipad',    
-        img:'Image/product/10026.png', 
+        img:'images/imgIpad/10026.png', 
         name:'iPad Pro', 
         price: 646110,
         
@@ -109,7 +109,7 @@ var productArray = [
     {
         productId:10025, 
         brand:'iphone',    
-        img:'Image/product/10025.png', 
+        img:'images/imgIphone/10025.png', 
         name:'iPhone XR 128GB', 
         price: 818530,
         
@@ -130,7 +130,7 @@ var productArray = [
     {
         productId:10024, 
         brand:'iphone',    
-        img:'Image/product/10024.png', 
+        img:'images/imgIphone/10024.png', 
         name:'iPhone XS Max 256GB', 
         price: 1465070,
         
@@ -151,7 +151,7 @@ var productArray = [
     {
         productId:10023, 
         brand:'mac',    
-        img:'Image/product/10023.png', 
+        img:'images/imgMacbook/10023.png', 
         name:'MacBook Air 2019 128GB', 
         price: 1206450,
         
@@ -173,7 +173,7 @@ var productArray = [
     {
         productId:10022, 
         brand:'mac',    
-        img:'Image/product/10022.png', 
+        img:'images/imgMacbook/10006.png', 
         name:'MacBook Pro Touch 2019 256GB', 
         price: 2585750,
         
@@ -194,7 +194,7 @@ var productArray = [
     {
         productId:10021, 
         brand:'iphone',    
-        img:'Image/product/10021.png', 
+        img:'images/imgIphone/10021.png', 
         name:'iPhone 11 128GB', 
         price: 1034040,
         
@@ -215,7 +215,7 @@ var productArray = [
     {
         productId:10020, 
         brand:'iphone',    
-        img:'Image/product/10020.png', 
+        img:'images/imgIphone/10020.png', 
         name:'iPhone 11 Pro Max 512GB', 
         price: 1896100,
         
@@ -236,7 +236,7 @@ var productArray = [
     {
         productId:10019, 
         brand:'ipad',    
-        img:'Image/product/10019.png', 
+        img:'images/imgIpad/10019.png', 
         name:'iPad 10.2 inch Wifi Cellular 128GB (2019)',
         price: 646110,
         
@@ -257,7 +257,7 @@ var productArray = [
     {
         productId:10018, 
         brand:'ipad',    
-        img:'Image/product/10018.png', 
+        img:'images/imgIpad/10018.png', 
         name:'iPad Mini 7.9 inch Wifi 64GB (2019)', 
         price: 473700,
         
@@ -278,7 +278,7 @@ var productArray = [
     {
         productId:10017, 
         brand:'iphone',    
-        img:'Image/product/10017.png', 
+        img:'images/imgIphone/10017.png', 
         name:'iPhone 8 Plus 64GB', 
         price: 689220,
         
@@ -299,7 +299,7 @@ var productArray = [
     {
         productId:10016, 
         brand:'iphone',    
-        img:'Image/product/10016.png', 
+        img:'images/imgIphone/10016.png', 
         name:'iPhone 6s Plus 32GB', 
         price: 387500,
         
@@ -320,7 +320,7 @@ var productArray = [
     {
         productId:10015, 
         brand:'mac',    
-        img:'Image/product/10015.png', 
+        img:'images/imgMacbook/10015.png', 
         name:'MacBook Air 2017 128GB', 
         price: 926280,
         
@@ -341,7 +341,7 @@ var productArray = [
     {
         productId:10014, 
         brand:'iphone',    
-        img:'Image/product/10014.png', 
+        img:'images/imgIphone/10014.png', 
         name:'iPhone 7 32GB', 
         price: 430600,
         
@@ -362,7 +362,7 @@ var productArray = [
     {
         productId:10013, 
         brand:'watch',    
-        img:'Image/product/10013.png', 
+        img:'images/imgAppleWatch/10013.png', 
         name:'Apple Watch Series 5', 
         price: 531890,
         
@@ -383,7 +383,7 @@ var productArray = [
     {
         productId:10012, 
         brand:'watch',    
-        img:'Image/product/10012.png', 
+        img:'images/imgAppleWatch/10012.png', 
         name:'Apple Watch Series 5 Black', 
         price: 490940,
         
@@ -404,7 +404,7 @@ var productArray = [
     {
         productId:10011, 
         brand:'ipad',    
-        img:'Image/product/10011.png', 
+        img:'images/imgIpad/10011.png', 
         name:'iPad Wifi 32GB (2019)', 
         price: 387500,
         
@@ -425,7 +425,7 @@ var productArray = [
     {
         productId:10010, 
         brand:'ipad',    
-        img:'Image/product/10010.png', 
+        img:'images/imgIpad/10010.png', 
         name:'iPad Wifi 32GB (2018)', 
         price: 387500,
         
@@ -446,7 +446,7 @@ var productArray = [
     {
         productId:10009, 
         brand:'iphone',    
-        img:'Image/product/10009.png',
+        img:'images/imgIphone/10009.png',
         name:'iPhone X 64GB', 
         price: 861630,
         
@@ -467,7 +467,7 @@ var productArray = [
     {
         productId:10008, 
         brand:'iphone',    
-        img:'Image/product/10008.png', 
+        img:'images/imgIphone/10008.png', 
         name:'iPhone 7S Plus 32GB', 
         price: 559910,
         
@@ -488,7 +488,7 @@ var productArray = [
     {
         productId:10007, 
         brand:'mac',    
-        img:'Image/product/10007.png', 
+        img:'images/imgMacbook/10007.png', 
         name:'iMac 5K Retina', 
         price: 2068520,
         
@@ -509,7 +509,7 @@ var productArray = [
     {
         productId:10006, 
         brand:'mac',    
-        img:'Image/product/10006.png', 
+        img:'images/imgMacbook/10006.png', 
         name:'Macbook Pro Touch 2019 512GB', 
         price: 3016780,
         
@@ -530,7 +530,7 @@ var productArray = [
     {
         productId:10005, 
         brand:'watch',    
-        img:'Image/product/10005.png', 
+        img:'images/imgAppleWatch/10005.png', 
         name:'Apple Watch Series 4', 
         price: 516810,
         
@@ -551,7 +551,7 @@ var productArray = [
     {
         productId:10004, 
         brand:'watch',    
-        img:'Image/product/10004.png', 
+        img:'images/imgAppleWatch/10004.png', 
         name:'Apple Watch Series 4', 
         price: 473700,
         
@@ -571,7 +571,7 @@ var productArray = [
     {
         productId:10003, 
         brand:'ipad',    
-        img:'Image/product/10003.png', 
+        img:'images/imgIpad/10003.png', 
         name:'iPad Wifi Cellular 32GB (2019)', 
         price: 559910,
         
@@ -592,7 +592,7 @@ var productArray = [
     {
         productId:10002, 
         brand:'ipad',    
-        img:'Image/product/10002.png', 
+        img:'images/imgIpad/10002.png', 
         name:'iPad Mini Wifi Cellular 64GB (2019)', 
         price: 646110,
         
@@ -613,7 +613,7 @@ var productArray = [
     {
         productId:10001, 
         brand:'iphone',    
-        img:'Image/product/10001.png', 
+        img:'images/imgIphone/10001.png', 
         name:'iPhone Xs Max 256GB', 
         price: 1465070,
         
@@ -634,7 +634,7 @@ var productArray = [
     {
         productId:10000, 
         brand:'iphone',    
-        img:'Image/product/10000.png', 
+        img:'images/imgIphone/10000.png', 
         name:'iPhone 11 Pro Max 512GB', 
         price: 1896100,
         
@@ -654,3 +654,75 @@ var productArray = [
     },
     
 ];
+
+function closeDetail() {
+  const styleDisplayDetail = "none";
+  document.getElementById("background-container").style.display = styleDisplayDetail;
+}
+
+
+
+function formatPrice(num) {
+  return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1.') + ' VNĐ';
+}
+
+
+function showProductDetail(productId) {
+  var s = "";
+  var styleDisplay = "" ;
+  for(i = 0; i < productArray.length; ++i) {
+    if(productId === productArray[i].productId) {
+      s += `<button onClick="closeDetail();" type="button" class="button-close">+</button>
+            <div class="img-product">
+                <img src="../${productArray[i].img}" alt="">
+            </div>
+
+            <div class="info-product">
+              <div class="div-info">
+                  <h2 class="name-product">Name: ${productArray[i].name}</h2>
+                  <h4 class="price-product">Price: ${formatPrice(productArray[i].price)}</h4>
+                  <h4 class="title-product">PRODUCT CONFIGURATION</h4>
+                  <ul>
+                    <li><p>Screen: ${productArray[i].detail.screen}</p></li><br>
+                    <li><p>Operating System: ${productArray[i].detail.system}</p></li><br>
+                    <li><p>Front Camera: ${productArray[i].detail.camaraFront}</p></li><br>
+                    <li><p>Rear Camera: ${productArray[i].detail.camara}</p></li><br>
+                    <li><p>CPU: ${productArray[i].detail.cpu}</p></li><br>
+                    <li><p>RAM: ${productArray[i].detail.ram}</p></li><br>
+                    <li><p>ROM: ${productArray[i].detail.rom}</p></li><br>
+                    <li><p>MicroUSB: ${productArray[i].detail.microUSB}</p></li><br>
+                    <li><p>Battery: ${productArray[i].detail.battery}</p></li><br>
+                    <li><p>Size: ${productArray[i].detail.size}</p></li><br>
+                  </ul>
+              </div>
+
+              <div class="div-submit">
+                <button type="button" class="btn-submit">ADD TO CART</button>
+              </div>
+            </div>`;
+
+      styleDisplay += "block";
+    }
+  }
+  document.getElementById("background-container").style.display = 'block';
+  document.getElementById("div-product").innerHTML = s;
+}
+
+
+function getData() {
+  var s = "";
+  for(i = 0; i < productArray.length; ++i) { 
+    s += `
+      <div class="item-product">
+        <img src="../${productArray[i].img}" alt="">
+        <p>${productArray[i].name}</p>
+        <p>${formatPrice(productArray[i].price)}</p>
+        <button onClick="showProductDetail(${productArray[i].productId});" id="btn-click-show" type="button">Chi Tiết</button>
+      </div>
+    `;
+  }
+  document.getElementById("product").innerHTML = s;
+  
+}
+
+getData();
