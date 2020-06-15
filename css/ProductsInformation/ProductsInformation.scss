@@ -124,3 +124,100 @@ div#background-container {
         }
     }
 }
+
+
+
+
+//Mobile
+@media only screen and (max-width: 739px) {
+    div#background-container {
+    
+        div#div-product {
+            margin-top: 5px;
+            width: 80%;
+            height: 90%;
+            button.button-close {
+                font-size: 10vw;
+                top: -4vw;
+                right: 1.8vw;
+                &:hover {
+                    color: coral;
+                }
+            }
+    
+            div.img-product {
+                
+                img {
+                
+                }
+            }
+    
+            div.info-product {
+                width: 100%;
+                div.div-info {
+    
+                    h2 {
+                        font-weight: 600;
+                        font-size: 3.2vw;
+                        font-family: sans-serif;
+                        margin: 0;
+                        padding-bottom: 2px;
+                        border-bottom: 2px solid coral;
+                    }
+    
+                    h4 {
+                        font-weight: 600;
+                        font-size: 3vw;
+                        font-family: sans-serif;                       
+                    }
+    
+                    h4.title-product {
+                        font-weight: 600;
+                        font-size: 3vw;
+                        font-family: sans-serif;   
+                    }
+    
+                    ul {
+                    
+    
+                        li{
+                            padding: 3px 0;
+                            height: 3.5vw;
+                    
+                            p {
+                                line-height: 3vw;
+                                font-size: 3vw;
+                               
+                            }
+                        }
+                    }
+                }
+    
+                div.div-submit {
+                   
+    
+                    button.btn-submit {
+                        width: 35vw;
+                        height: 8vw;
+                        font-size: 3vw;
+    
+                        &:hover {
+                            border: none;
+                            background-color: black;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Tablet 
+@media only screen and (min-width: 740px) and (max-width: 1023px) { 
+
+} 
+
+// PC resolution and PC
+@media only screen and (min-width: 1024px) {    
+}

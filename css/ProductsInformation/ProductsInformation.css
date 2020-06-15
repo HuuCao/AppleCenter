@@ -132,4 +132,59 @@ div#background-container div#div-product div.info-product div.div-submit button.
   background-color: white;
   color: coral;
 }
+
+@media only screen and (max-width: 739px) {
+  div#background-container div#div-product {
+    margin-top: 5px;
+    width: 80%;
+    height: 90%;
+  }
+  div#background-container div#div-product button.button-close {
+    font-size: 10vw;
+    top: -4vw;
+    right: 1.8vw;
+  }
+  div#background-container div#div-product button.button-close:hover {
+    color: coral;
+  }
+  div#background-container div#div-product div.info-product {
+    width: 100%;
+  }
+  div#background-container div#div-product div.info-product div.div-info h2 {
+    font-weight: 600;
+    font-size: 3.2vw;
+    font-family: sans-serif;
+    margin: 0;
+    padding-bottom: 2px;
+    border-bottom: 2px solid coral;
+  }
+  div#background-container div#div-product div.info-product div.div-info h4 {
+    font-weight: 600;
+    font-size: 3vw;
+    font-family: sans-serif;
+  }
+  div#background-container div#div-product div.info-product div.div-info h4.title-product {
+    font-weight: 600;
+    font-size: 3vw;
+    font-family: sans-serif;
+  }
+  div#background-container div#div-product div.info-product div.div-info ul li {
+    padding: 3px 0;
+    height: 3.5vw;
+  }
+  div#background-container div#div-product div.info-product div.div-info ul li p {
+    line-height: 3vw;
+    font-size: 3vw;
+  }
+  div#background-container div#div-product div.info-product div.div-submit button.btn-submit {
+    width: 35vw;
+    height: 8vw;
+    font-size: 3vw;
+  }
+  div#background-container div#div-product div.info-product div.div-submit button.btn-submit:hover {
+    border: none;
+    background-color: black;
+    color: white;
+  }
+}
 /*# sourceMappingURL=ProductsInformation.css.map */

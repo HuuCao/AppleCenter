@@ -83,3 +83,49 @@ div#product {
         transform: translateY(0%);
     }
 }
+
+//Mobile
+@media only screen and (max-width: 739px) {
+    div#product {
+        div.item-product {
+    
+            img {
+                
+            }
+    
+            p {
+                font-size: 5.3px;
+            }
+            
+            
+    
+            button {
+                width: 50px;
+                height: 10px;
+                display: block;
+            }
+            
+            &:hover {
+                box-shadow: none;
+    
+                img{
+                    transform: scale(1);
+                }
+                
+                button{
+                    display: block;
+                    animation: none 0.7s;
+                }
+            } 
+        }
+    }
+}
+
+// Tablet 
+@media only screen and (min-width: 740px) and (max-width: 1023px) { 
+
+} 
+
+// PC resolution and PC
+@media only screen and (min-width: 1024px) {    
+}
