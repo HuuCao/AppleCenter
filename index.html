@@ -8,68 +8,208 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/Header/style.css">
+    <link rel="stylesheet" href="./css/Header/header.css">
     <link rel="stylesheet" href="./css/Footer/footer.css">
+    <link rel="stylesheet" href="./css/Carousel/carousel.css">
     <link rel="shortcut icon" href="./images/imgHeader/apple-brands.svg">
 
-    <!-- hover -->
-    <!-- <link rel="stylesheet" href="./hover/hover-min.css"> -->
-    <!-- <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet"> -->
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script> -->
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script> -->
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">       
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="./bootstrap/css/hover-min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">    
+    
+    <!--Icon-->
+    <script src="jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 
     <style>
-        * {
+        *{
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+        }
+        body {
+            overflow-x: hidden;
         }
     </style>
 
 </head>
 <body>
-<!-- carousel -->
-    <div id="slides" class="carousel slide" data-ride="carousel">
-        <ul class="carousel-indicators">
-            <li data-target="#slides" data-slide-to="0" class="avtive"></li>
-            <li data-target="#slides" data-slide-to="1"></li>
-            <li data-target="#slides" data-slide-to="2"></li>
-            <li data-target="#slides" data-slide-to="3"></li>
-            <li data-target="#slides" data-slide-to="4"></li>
-            <li data-target="#slides" data-slide-to="5"></li>
-        </ul>
+<!-- Haeder -->
+<nav class="navbar navbar-expand-md">
+    <a class="navbar-brand" href="#">
+        <img id="img_logo" src="./images/download.png" alt="Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+      
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown" >
+                <a class="nav-link hvr-bubble-float-bottom" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    COLLECTION
+                </a>
+                <div class="dropdown-content" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">MNI LOOKBOOK SOUNDS OF NATURE</a>
+                    <a class="dropdown-item" href="#">LOOKBOOK OF NOVEMBER 2019</a>
+                    <a class="dropdown-item" href="#">OCTOBER LOOKBOOK 2019</a>
+                    <a class="dropdown-item" href="#">NO.07 CAMPAGN</a>
+                    <a class="dropdown-item" href="#">LOOKBOOK OF SEPTEMBER 2019</a>
+                    <a class="dropdown-item" href="#">DAMEMOISELLE POXI A PARIS</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link hvr-bubble-float-bottom" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    SẢN PHẨM
+                </a>
+                <div class="dropdown-content" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">ÁO</a>
+                    <a class="dropdown-item" href="#">CHÂN VÁY</a>
+                    <a class="dropdown-item" href="#">ĐẦM</a>
+                    <a class="dropdown-item" href="#">QUẦN</a>
+                    <a class="dropdown-item" href="#">VÁY CƯỚI</a>
+                    <a class="dropdown-item" href="#">VÁY DỰ TIỆC</a>
+                    <a class="dropdown-item" href="#">SALE</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link hvr-bubble-float-bottom" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    MUA HÀNG
+                </a>
+                <div class="dropdown-content" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">HƯỚNG DẪN MUA HÀNG</a>
+                    <a class="dropdown-item" href="#">QUY ĐINH ĐỔI HÀNG</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link hvr-bubble-float-bottom" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    GIỚI THIỆU
+                </a>
+                <div class="dropdown-content" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">VỀ CHÚNG TÔI</a>
+                    <a class="dropdown-item" href="#">BẢNG SIZE</a>
+                    <a class="dropdown-item" href="#">MEMBERSHIP & GIFT VOUCHER</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link hvr-pulse-grow" href="#" style="color: red; font-weight: bold;">SALE</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link hvr-bubble-float-bottom" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    ĐĂNG NHẬP
+                </a>
+                <div class="dropdown-content" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">TẠO TÀI KHOẢN</a>
+                    <a class="dropdown-item" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">ĐĂNG NHẬP</a>
+                    <div id="id01" class="modal">
 
-        <div class="carousel-caption">
-            <h1 class="display-2">Apple</h1>
-            <h3>Mua một lần, dùng cả đời</h3>
-        </div>
-        <div style="width: 100%; height: 659px; overflow: hidden;">
-            <div id="slides" class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./images/imgCarousel/2.jpg">
+                        <form class="modal-content animate">
+                          <div class="imgcontainer">
+                            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                            <img src="img_avatar2.png" alt="Avatar" class="avatar">
+                          </div>
+                      
+                          <div class="container">
+                            <label for="uname"><b>Username</b></label>
+                            <input type="text" placeholder="Enter Username" name="uname" required>
+                      
+                            <label for="psw"><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="psw" required>
+                              
+                            <button type="submit">Login</button>
+                            <label>
+                              <input type="checkbox" checked="checked" name="remember"> Remember me
+                            </label>
+                          </div>
+                      
+                          <div class="container" style="background-color:#f1f1f1">
+                            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                            <span class="psw">Forgot <a href="#">password?</a></span>
+                          </div>
+                        </form>
+                      </div>
+                      
                 </div>
-                <div class="carousel-item">
-                    <img src="./images/imgCarousel/1.jpg">
-                </div>
-                <div class="carousel-item">
-                    <img src="./images/imgCarousel/3.jpg">
-                </div>
-                <div class="carousel-item">
-                    <img src="./images/imgCarousel/4.jpg">
-                </div>
-                <div class="carousel-item">
-                    <img src="./images/imgCarousel/8.jpg">
-                </div>
-                <div class="carousel-item">
-                    <img src="./images/imgCarousel/6.jpg">
+            </li>
+        </ul>
+        <form class="form-inline my-4 my-lg-0">
+            <input id="tool_search" class="form-control mr-sm-2" type="search" placeholder="Tìm..." aria-label="Search">
+            <button class="btn btn-outline-success my-4 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+        <!-- <div class="bot-nav">
+            <ul>
+                <li><a href="#"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user-circle" class="svg-inline--fa fa-user-circle fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z"></path></svg></a>
+                    <ul>
+                        <li><a href="#">Đăng nhập</a></li>
+                        <li><a href="#">Đăng kí</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="shopping-cart" class="svg-inline--fa fa-shopping-cart fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z"></path></svg>
+                    </a>
+                </li>
+            </ul>
+        </div> -->
+
+
+<!-- carousel -->
+    <!-- <div class="div-carousel">
+        <div id="slides" class="lv1 carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#slides" data-slide-to="0" class="avtive"></li>
+                <li data-target="#slides" data-slide-to="1"></li>
+                <li data-target="#slides" data-slide-to="2"></li>
+                <li data-target="#slides" data-slide-to="3"></li>
+                <li data-target="#slides" data-slide-to="4"></li>
+                <li data-target="#slides" data-slide-to="5"></li>
+            </ul>
+    
+            <div class="carousel-caption">
+                <h1 class="display-2">Apple</h1>
+                <h3>Mua một lần, dùng cả đời</h3>
+            </div>
+            <div class="img-carousel">
+                <div id="slides" class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/imgCarousel/2.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/imgCarousel/1.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/imgCarousel/3.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/imgCarousel/4.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/imgCarousel/8.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/imgCarousel/6.jpg">
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 <!-- footer -->
-        <footer class="footer-container">
+        <!-- <footer class="footer-container">
             <hr>
             <br>
             <section class="footer-container-section">
@@ -189,7 +329,7 @@
                 </div>
             </section>
         </footer>
-    </div>  
+    </div>   -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
