@@ -182,6 +182,12 @@ footer.footer-container section.footer-container-section div.footer-div-containe
   footer.footer-container section.footer-container-section nav.footer-nav-link ul h5 {
     font-size: 1.5vw;
   }
+  footer.footer-container section.footer-container-section nav.footer-nav-link ul li {
+    height: 2.5vh;
+  }
+  footer.footer-container section.footer-container-section nav.footer-nav-link ul li a {
+    font-size: 1.6vw;
+  }
   footer.footer-container section.footer-container-section div.footer-div-container {
     padding: 3vw 0;
     width: 100vw;
