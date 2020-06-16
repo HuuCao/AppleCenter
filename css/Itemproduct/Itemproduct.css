@@ -19,7 +19,7 @@ div#product div.item-product {
       -ms-flex-pack: center;
           justify-content: center;
   overflow: hidden;
-  border: 1px solid beige;
+  border: 1px solid none;
 }
 
 div#product div.item-product img {

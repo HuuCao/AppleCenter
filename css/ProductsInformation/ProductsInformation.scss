@@ -18,6 +18,8 @@ div#background-container {
         z-index: 10;
         position: relative;
         background-color: white;
+        box-shadow: 10px 1px 15px 2px black;
+       
 
         button.button-close {
             outline: none;
@@ -125,6 +127,15 @@ div#background-container {
     }
 }
 
+@keyframes anim-detail {
+    from {
+        transform: translateY(-200%);
+    }
+    to {
+        transform: translateY(0%);
+    }
+}
+
 
 
 
@@ -133,9 +144,10 @@ div#background-container {
     div#background-container {
     
         div#div-product {
-            margin-top: 5px;
+            margin: 20px auto;
             width: 80%;
             height: 90%;
+
             button.button-close {
                 font-size: 10vw;
                 top: -4vw;

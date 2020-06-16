@@ -21,6 +21,8 @@ div#background-container div#div-product {
   z-index: 10;
   position: relative;
   background-color: white;
+  -webkit-box-shadow: 10px 1px 15px 2px black;
+          box-shadow: 10px 1px 15px 2px black;
 }
 
 div#background-container div#div-product button.button-close {
@@ -133,9 +135,31 @@ div#background-container div#div-product div.info-product div.div-submit button.
   color: coral;
 }
 
+@-webkit-keyframes anim-detail {
+  from {
+    -webkit-transform: translateY(-200%);
+            transform: translateY(-200%);
+  }
+  to {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+
+@keyframes anim-detail {
+  from {
+    -webkit-transform: translateY(-200%);
+            transform: translateY(-200%);
+  }
+  to {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+
 @media only screen and (max-width: 739px) {
   div#background-container div#div-product {
-    margin-top: 5px;
+    margin: 20px auto;
     width: 80%;
     height: 90%;
   }

@@ -704,6 +704,8 @@ function showProductDetail(productId) {
       styleDisplay += "block";
     }
   }
+ 
+  document.getElementById("div-product").style.animation = "anim-detail 0.5s";
   document.getElementById("background-container").style.display = 'block';
   document.getElementById("div-product").innerHTML = s;
 }
