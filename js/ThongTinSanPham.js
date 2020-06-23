@@ -674,7 +674,7 @@ function showProductDetail(productId) {
     if(productId === productArray[i].productId) {
       s += `<button onClick="closeDetail();" type="button" class="button-close">+</button>
             <div class="img-product">
-                <img src="../${productArray[i].img}" alt="">
+                <img src="${productArray[i].img}" alt="">
             </div>
 
             <div class="info-product">
