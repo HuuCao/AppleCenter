@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 a#scroll {
   position: fixed;
   right: 1.3vw;
@@ -6,7 +10,9 @@ a#scroll {
   height: 3.3vw;
   background-color: #3498db;
   text-indent: -9999px;
-  display: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
