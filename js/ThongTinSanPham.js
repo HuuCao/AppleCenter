@@ -716,7 +716,7 @@ function getData() {
   for(i = 0; i < productArray.length; ++i) { 
     s += `
       <div class="item-product">
-        <img src="../${productArray[i].img}" alt="">
+        <img src="${productArray[i].img}" alt="">
         <p>${productArray[i].name}</p>
         <p>${formatPrice(productArray[i].price)}</p>
         <button onClick="showProductDetail(${productArray[i].productId});" id="btn-click-show" type="button">Chi Tiết</button>
